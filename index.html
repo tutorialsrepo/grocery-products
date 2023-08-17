@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/9bed4d4302.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Grocery</h1>
+      <input type="text" placeholder="Search for products, brands and more" />
+      <button class="btn1" onclick="clickEvent()">Login</button>
+      <a href="">Become a Seller</a>
+      <a href="">More <i class="fa fa-light fa-chevron-down fa-xs"></i> </a>
+      <a href=""><i class="fa-solid fa-cart-shopping fa-sm"></i> Cart</a>
+    </header>
+    <main>
+      <section class="categorySection">
+        <div class="categoryItem">
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/50474c.jpg?q=100"
+            alt="Grocery"
+            height="75"
+          />
+
+          <b>Staples</b>
+        </div>
+        <div class="categoryItem">
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/9fbd36.jpg?q=100"
+            alt="Mobiles"
+            height="75"
+          />
+
+          <b>Snacks & Beverages</b>
+        </div>
+        <div class="categoryItem">
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/ac8550.jpg?q=100"
+            alt="Fashion"
+            height="75"
+          />
+
+          <b>Packaged Food</b>
+        </div>
+        <div class="categoryItem">
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/7670e2.jpg?q=100"
+            alt="Electronics"
+            height="75"
+          />
+
+          <b>Personal & Baby Care</b>
+        </div>
+        <div class="categoryItem">
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100"
+            alt="Home & Furniture"
+            height="75"
+          />
+
+          <b>Household Care</b>
+        </div>
+        <div class="categoryItem">
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/8014b1.jpg?q=100"
+            alt="Appliances"
+            height="75"
+          />
+
+          <b>Dairy & Eggs</b>
+        </div>
+        <div class="categoryItem">
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/e6e0ecc56771471a.png?q=100"
+            alt="Travel"
+            height="75"
+          />
+
+          <b>Home & Kitchen</b>
+        </div>
+      </section>
+      <!-- <section class="bannerSection">
+        <img src="airplaneCourosel.png" alt="place" />
+      </section> -->
+      <section class="productsListSection">
+        <div>
+          <h2>Dals & Pulses</h2>
+
+          <div class="mainList">
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/xif0q/pulses/v/2/q/-original-imagpgzhchqe7b29.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Tata Sampann Green Moong Dal (Moong Dal) (Whole)</label>
+              <span>Rs.72</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/kfpq5jk0/pulses/d/d/r/1-urad-dal-whole-urad-dal-unbranded-original-imafw47hyvjkacjc.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Urad Dal (Whole)</label>
+              <span>Show Now</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/kfpq5jk0/pulses/8/u/r/1-toor-dal-arhar-dal-desi-toor-dal-unbranded-original-imafw49gxj269b5w.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Toor/Arhar Dal (Split)</label>
+              <span>From Rs.399</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/kfpq5jk0/pulses/a/b/y/500-raw-peanuts-mungaphali-shengdana-raw-peanut-unbranded-original-imafw47hntgehtdp.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Chana Dal (Split)</label>
+              <span>From Rs.599</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/kfpq5jk0/pulses/9/t/4/1-chana-brown-chana-unbranded-original-imafw47h3wss3xe3.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Raw Peanut (Whole) </label>
+              <span>From Rs.1585</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/xif0q/pulses/u/l/5/-original-imagpgzk45qq4emg.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Tata Sampann Red Masoor Dal (Masoor Dal) (Whole)</label>
+              <span>From Rs.399</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Rice & Rice Products</h2>
+
+          <div class="mainList">
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/kqidx8w0/rice/r/p/x/white-everyday-na-basmati-rice-pouch-fortune-original-imag4gb4ynggnzgt.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Fortune Everyday Basmati Rice (Long Grain)</label>
+              <span>Rs.72</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/kr3tj0w0/rice/5/1/6/white-thick-na-poha-pouch-vijay-original-imag4yqkwzhbmakc.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Vijay Thick Poha</label>
+              <span>Show Now</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/kuof5ow0/rice/t/g/2/white-na-na-poha-pouch-tata-sampann-na-original-imag7qyaf8uqphac.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Tata Sampann High in Fibre (Thick) Poha</label>
+              <span>From Rs.399</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/ked56kw0/rice/x/y/z/10-bullet-original-sortex-white-bag-kolam-rice-slv-original-imafv2cfchthertn.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>SLV Bullet Original Sortex Kolam Rice</label>
+              <span>From Rs.599</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/kqidx8w0/rice/s/2/x/white-hamesha-steam-basmati-rice-bag-fortune-original-imag4gb3n99n3hcs.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label>Raw Peanut (Whole) </label>
+              <span>From Rs.1585</span>
+            </div>
+            <div class="mainItemCard">
+              <img
+                src="https://rukminim2.flixcart.com/image/280/280/knqd3m80/rice/v/t/a/white-rozzana-na-basmati-rice-bag-unity-original-imag2c7xuhffszrh.jpeg?q=70"
+                alt="1"
+                width="150"
+                height="200"
+              />
+
+              <label
+                >Unity From The House of India Gate - Rozzana Basmati Rice
+                (Basmati Chawal) (Medium Grain)</label
+              >
+
+              <span>From Rs.399</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="firstFooter">
+        <ul>
+          <li>ABOUT</li>
+          <li>Contact Us</li>
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Flipkart Stories</li>
+          <li>Press</li>
+          <li>Flipkart Wholesale</li>
+          <li>Corporate Information</li>
+        </ul>
+        <ul>
+          <li>HELP</li>
+          <li>Payments</li>
+          <li>Shipping</li>
+          <li>Cancellation & Returns</li>
+          <li>FAQ</li>
+          <li>Report Infrifement</li>
+        </ul>
+        <ul>
+          <li>CONSUMER POLICY</li>
+          <li>Return Policy</li>
+          <li>Terms Of use</li>
+          <li>Security</li>
+          <li>Privacy</li>
+          <li>Sitemap</li>
+          <li>Grievance Redressal</li>
+          <li>EPR Compliance</li>
+        </ul>
+        <ul>
+          <li>SOCIAL</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>YouTube</li>
+        </ul>
+        <ul>
+          <li>Mail Us:</li>
+          <li>
+            <pre>
+Flipkart Internet Private Limited,
+Buildings Alyssa, Begonia &
+Clove Embassy Tech Village,
+Outer Ring Road, 
+Devarabeesanahalli Village,
+Bengaluru, 560103,
+Karnataka, India
+                </pre
+            >
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul>
+          <li>Registered Office Address:</li>
+          <li>
+            <pre>
+Flipkart Internet Private Limited,
+Buildings Alyssa, Begonia &
+Clove Embassy Tech Village,
+Outer Ring Road, 
+Devarabeesanahalli Village,
+Bengaluru, 560103,
+Karnataka, India
+CIN : U51109KA2012PTC066107
+Telephone: 044-45614700
+                </pre
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="secondFooter">
+        <ul>
+          <li><i class="fa-solid fa-suitcase"></i> Become a Seller</li>
+          <li><i class="fa-regular fa-sun"></i> Advertise</li>
+          <li><i class="fa-solid fa-gift"></i> Gift Cards</li>
+          <li>
+            <i class="fa-sharp fa-solid fa-circle-question"></i> Help Center
+          </li>
+          <li>© 2007-2023 Flipkart.com</li>
+          <li>
+            <img
+              src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg"
+              alt="paymentTypeCards"
+            />
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
